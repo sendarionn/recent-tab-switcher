@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "recent-tab-switcher",
   "version": "1.0.0",
-  "description": "直前に開いていたタブへショートカットキーで移動",
+  "description": "直前に開いていたタブへ移動するショートカットキーを追加するChrome拡張機能",
   "minimum_chrome_version": "102",
   "permissions": [
     "storage",
