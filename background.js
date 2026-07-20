@@ -72,8 +72,14 @@ async function switchToPreviousTab() {
   }
 }
 
-chrome.runtime.onInstalled.addListener(() => {
-  runSequentially(restoreHistory)
+chrome.runtime.onInstalled.addListener(({ reason }) => {
+  runSequentially(async () => {
+    await restoreHistory()
+
+    if (reason === "install") {
+      await chrome.tabs.create({ url: "chrome://extensions/shortcuts" })
+    }
+  })
 })
 
 chrome.runtime.onStartup.addListener(() => {
