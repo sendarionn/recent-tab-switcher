@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5364BC3095880000735C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5364BB3095880000735C8A /* AppDelegate.swift */; };
+		DB5364C03095880000735C8A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DB5364BE3095880000735C8A /* Main.html */; };
+		DB5364C23095880000735C8A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5364C13095880000735C8A /* Icon.png */; };
+		DB5364C43095880000735C8A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DB5364C33095880000735C8A /* Style.css */; };
+		DB5364C63095880000735C8A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DB5364C53095880000735C8A /* Script.js */; };
+		DB5364C83095880000735C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5364C73095880000735C8A /* ViewController.swift */; };
+		DB5364CB3095880000735C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5364C93095880000735C8A /* Main.storyboard */; };
+		DB5364CD3095880000735C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5364CC3095880000735C8A /* Assets.xcassets */; };
+		DB5364D43095880000735C8A /* recent-tab-switcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DB5364D33095880000735C8A /* recent-tab-switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DB5364D93095880000735C8A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5364D83095880000735C8A /* SafariWebExtensionHandler.swift */; };
+		DB5364E73095880100735C8A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DB5364E53095880100735C8A /* background.js */; };
+		DB5364E83095880100735C8A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DB5364E63095880100735C8A /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5364D53095880000735C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5364B03095880000735C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5364D23095880000735C8A;
+			remoteInfo = "recent-tab-switcher Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB5364E03095880000735C8A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DB5364D43095880000735C8A /* recent-tab-switcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB5364B83095880000735C8A /* recent-tab-switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recent-tab-switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5364BB3095880000735C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB5364BF3095880000735C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		DB5364C13095880000735C8A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DB5364C33095880000735C8A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DB5364C53095880000735C8A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DB5364C73095880000735C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB5364CA3095880000735C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5364CC3095880000735C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5364CE3095880000735C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5364D33095880000735C8A /* recent-tab-switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "recent-tab-switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5364D83095880000735C8A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DB5364DA3095880000735C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5364E53095880100735C8A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		DB5364E63095880100735C8A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5364B53095880000735C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5364D03095880000735C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5364AF3095880000735C8A = {
+			isa = PBXGroup;
+			children = (
+				DB5364BA3095880000735C8A /* recent-tab-switcher */,
+				DB5364D73095880000735C8A /* recent-tab-switcher Extension */,
+				DB5364B93095880000735C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5364B93095880000735C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5364B83095880000735C8A /* recent-tab-switcher.app */,
+				DB5364D33095880000735C8A /* recent-tab-switcher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5364BA3095880000735C8A /* recent-tab-switcher */ = {
+			isa = PBXGroup;
+			children = (
+				DB5364BB3095880000735C8A /* AppDelegate.swift */,
+				DB5364C73095880000735C8A /* ViewController.swift */,
+				DB5364C93095880000735C8A /* Main.storyboard */,
+				DB5364CC3095880000735C8A /* Assets.xcassets */,
+				DB5364CE3095880000735C8A /* Info.plist */,
+				DB5364BD3095880000735C8A /* Resources */,
+			);
+			path = "recent-tab-switcher";
+			sourceTree = "<group>";
+		};
+		DB5364BD3095880000735C8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB5364BE3095880000735C8A /* Main.html */,
+				DB5364C13095880000735C8A /* Icon.png */,
+				DB5364C33095880000735C8A /* Style.css */,
+				DB5364C53095880000735C8A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB5364D73095880000735C8A /* recent-tab-switcher Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB5364E43095880100735C8A /* Resources */,
+				DB5364D83095880000735C8A /* SafariWebExtensionHandler.swift */,
+				DB5364DA3095880000735C8A /* Info.plist */,
+			);
+			path = "recent-tab-switcher Extension";
+			sourceTree = "<group>";
+		};
+		DB5364E43095880100735C8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB5364E53095880100735C8A /* background.js */,
+				DB5364E63095880100735C8A /* manifest.json */,
+			);
+			name = Resources;
+			path = "recent-tab-switcher Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5364B73095880000735C8A /* recent-tab-switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5364E13095880000735C8A /* Build configuration list for PBXNativeTarget "recent-tab-switcher" */;
+			buildPhases = (
+				DB5364B43095880000735C8A /* Sources */,
+				DB5364B53095880000735C8A /* Frameworks */,
+				DB5364B63095880000735C8A /* Resources */,
+				DB5364E03095880000735C8A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5364D63095880000735C8A /* PBXTargetDependency */,
+			);
+			name = "recent-tab-switcher";
+			packageProductDependencies = (
+			);
+			productName = "recent-tab-switcher";
+			productReference = DB5364B83095880000735C8A /* recent-tab-switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5364D23095880000735C8A /* recent-tab-switcher Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5364DD3095880000735C8A /* Build configuration list for PBXNativeTarget "recent-tab-switcher Extension" */;
+			buildPhases = (
+				DB5364CF3095880000735C8A /* Sources */,
+				DB5364D03095880000735C8A /* Frameworks */,
+				DB5364D13095880000735C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recent-tab-switcher Extension";
+			packageProductDependencies = (
+			);
+			productName = "recent-tab-switcher Extension";
+			productReference = DB5364D33095880000735C8A /* recent-tab-switcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5364B03095880000735C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					DB5364B73095880000735C8A = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					DB5364D23095880000735C8A = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = DB5364B33095880000735C8A /* Build configuration list for PBXProject "recent-tab-switcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5364AF3095880000735C8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB5364B93095880000735C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5364B73095880000735C8A /* recent-tab-switcher */,
+				DB5364D23095880000735C8A /* recent-tab-switcher Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5364B63095880000735C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5364C23095880000735C8A /* Icon.png in Resources */,
+				DB5364CB3095880000735C8A /* Main.storyboard in Resources */,
+				DB5364C63095880000735C8A /* Script.js in Resources */,
+				DB5364C03095880000735C8A /* Main.html in Resources */,
+				DB5364CD3095880000735C8A /* Assets.xcassets in Resources */,
+				DB5364C43095880000735C8A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5364D13095880000735C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5364E83095880100735C8A /* manifest.json in Resources */,
+				DB5364E73095880100735C8A /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5364B43095880000735C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5364C83095880000735C8A /* ViewController.swift in Sources */,
+				DB5364BC3095880000735C8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5364CF3095880000735C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5364D93095880000735C8A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5364D63095880000735C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5364D23095880000735C8A /* recent-tab-switcher Extension */;
+			targetProxy = DB5364D53095880000735C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5364BE3095880000735C8A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5364BF3095880000735C8A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DB5364C93095880000735C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5364CA3095880000735C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5364DB3095880000735C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB5364DC3095880000735C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DB5364DE3095880000735C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recent-tab-switcher Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recent-tab-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendarionn.recent-tab-switcher.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB5364DF3095880000735C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recent-tab-switcher Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recent-tab-switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendarionn.recent-tab-switcher.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DB5364E23095880000735C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recent-tab-switcher/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recent-tab-switcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendarionn.recent-tab-switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB5364E33095880000735C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "recent-tab-switcher/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "recent-tab-switcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendarionn.recent-tab-switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5364B33095880000735C8A /* Build configuration list for PBXProject "recent-tab-switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5364DB3095880000735C8A /* Debug */,
+				DB5364DC3095880000735C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5364DD3095880000735C8A /* Build configuration list for PBXNativeTarget "recent-tab-switcher Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5364DE3095880000735C8A /* Debug */,
+				DB5364DF3095880000735C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5364E13095880000735C8A /* Build configuration list for PBXNativeTarget "recent-tab-switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5364E23095880000735C8A /* Debug */,
+				DB5364E33095880000735C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5364B03095880000735C8A /* Project object */;
+}
